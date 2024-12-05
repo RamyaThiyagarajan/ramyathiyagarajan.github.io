@@ -20,7 +20,7 @@ about:
 
 # Welcome to my website!
 
-I am Ramya and currently pursuing my Master's in Biomedical Engineering at Case Western Reserve University. I have prior experience working in the roles of development engineer and machine learning engineer. My research interest lies in the field of orhopaedic engineering and I see myself working closely in the field, promoting and driving innovations to better the health-care for people.
+I am Ramya and currently pursuing my Master's in Biomedical Engineering at Case Western Reserve University. I have prior experience working in the roles of development engineer and machine learning engineer. My research interest lies in the field of orhopaedic engineering and I see myself working  in this field in the future, promoting and driving innovations to improve health-care for people.
 
 In this website, I will be publishing some of my work from my research and analysis.
 ```{=html}
