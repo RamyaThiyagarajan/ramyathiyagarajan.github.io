@@ -1,7 +1,7 @@
 # This file controls the settings for your Quarto template from www.marvinschmitt.com
 
 # website settings
-website: ramyathiyagarajan.github.io
+website: 
   title: "Ramya Thiyagarajan"                                # Your name
   description: "I am Ramya and currently pursuing my Master's in Biomedical Engineering at Case Western Reserve University. I have prior experience working in the roles of development engineer and machine learning engineer. My research interest lies in the field of orhopaedic engineering and I see myself working closely in the field, promoting and driving innovations to better the health-care for people"   # A brief slogan (optional)
   image: img/myimage.jpg
@@ -20,7 +20,7 @@ website: ramyathiyagarajan.github.io
       - text: "Dashboard"
         href: dashboard/index.qmd
       - text: "Blog"
-        href: blog_RamyaThiyagarjan.qmd
+        href: blog/blog_RamyaThiyagarjan.qmd
       - text: "CV"
         href: cv/index.qmd
        
