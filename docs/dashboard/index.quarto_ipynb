@@ -1,0 +1,34 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Osteoporosis Dashboard\"\n",
+        "output: html\n",
+        "description: \"Interactive visualization of osteoporosis data\"\n",
+        "---\n",
+        "\n",
+        "## Osteoporosis Dashboard\n",
+        "\n",
+        "Here is the interactive Osteoporosis Dashboard:\n",
+        "\n",
+        "\n",
+        "```{css}\n",
+        "<iframe src=\"https://rthiya.shinyapps.io/osteoporosis-dashboard/\" width=\"100%\" height=\"600px\"></iframe>\n",
+        "```"
+      ],
+      "id": "8114c289"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "display_name": "Python 3",
+      "language": "python",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

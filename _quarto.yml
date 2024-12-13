@@ -1,63 +1,28 @@
-# This file controls the settings for your Quarto template from www.marvinschmitt.com
-
-# website settings
-website:
-  title: "Ramya Thiyagarajan"                                # Your name
-  description: |
-    Welcome to My Website!
-
-    Hello! I’m Ramya, currently pursuing my Master's in Biomedical Engineering at Case Western Reserve University. With prior experience as a Development Engineer and Machine Learning Engineer, I have developed a strong foundation in engineering and technology. My research interests are deeply rooted in Orthopedic Engineering, and I am passionate about driving innovations that enhance healthcare outcomes.
-
-    This website serves as a platform to share some of my research, analyses, and projects related to orthopedic engineering and biomedical innovations. I am committed to promoting advancements in healthcare to improve lives, and I look forward to contributing to this field in meaningful ways.
-
-    Thank you for visiting, and I hope you find the work here both informative and inspiring!  # A brief slogan (optional for use)
-  image: img/myimage.jpg
-  favicon: img/fav.png
-
-  # start of the navigation bar at the top of the website
-  navbar:
-    pinned: true
-    logo: /img/Logo.png
-
-    # your sub-pages
-    left:
-      - text: "Projects"
-        href: projects/index.qmd
-      - text: "CV"
-        href: cv/index.qmd
-      - text: "Osteoporosis dashboard"
-        href: dashboard/index.qmd
-
-    # your social media handles
-    right:
-      - icon: linkedin
-        href: https:/www.linkedin.com/in/ramya-thiyagarajan-9a6205230
-      - icon: envelope
-        aria-label: email
-        href: "mailto:ramya.thiyagarajan@gmail.com"  
-
-  # Don't touch unless you know what you are doing :) ------------
-  search: 
-    location: navbar
-    type: textbox
-
-  page-footer: 
-    left: |
-      <span class="faux-block">&#169; 2023 Marvin Schmitt CC BY-SA 4.0</span>
-    center: |
-      <span class="faux-block"><a href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/">View the tutorial for this template!</a></span>
-    right: |
-      <span class="faux-block"><a href="https://github.com/marvinschmitt/quarto-website-template/">View source on GitHub</a></span>
-
 project:
   type: website
   output-dir: docs
 
-  preview: 
-    port: 22222
-    browser: true
-    watch-inputs: true
-    navigate: true
+website:
+  title: "Ramya Thiyagarajan"
+  description: "Welcome to My Website!"
+  image: img/myimage.jpg
+  favicon: img/fav.png
+
+navbar:
+  pinned: true
+  logo: /img/Logo.png
+  left:
+    - text: "Projects"
+      href: projects/index.qmd
+    - text: "CV"
+      href: cv/index.qmd
+    - text: "Osteoporosis dashboard"
+      href: dashboard/index.qmd
+  right:
+    - icon: linkedin
+      href: https://www.linkedin.com/in/ramya-thiyagarajan-9a6205230
+    - icon: envelope
+      href: "mailto:ramya.thiyagarajan@gmail.com"
 
 execute:
   freeze: true
@@ -65,12 +30,8 @@ execute:
 format:
   html:
     fontsize: 1.1em
-    theme: 
-      - pulse
-      - html/styles.scss
+    theme: pulse
     toc: false
-    code-link: true
     anchor-sections: true
     fig-cap-location: margin
-    reference-location: margin
     footnotes-hover: true
