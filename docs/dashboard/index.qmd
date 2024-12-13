@@ -1,12 +1,32 @@
 ---
-title: "Osteoporosis Dashboard"
-description: "Interactive visualization of osteoporosis data"
+layout: page
+title: Osteoporosis Dashboard
+excerpt: "Interactive visualization of osteoporosis data"
+execute:
+  freeze: true  # never re-render during project render
+engine: knitr
+resources:
+  - "osteoporosis-dashboard.html"
+dashboard:
+  link: "https://rthiya.shinyapps.io/osteoporosis-dashboard/"
 ---
+```{=html}
+<head>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
 
-## Osteoporosis Dashboard
+```
 
-Here is the interactive Osteoporosis Dashboard:
 
-<iframe src="https://rthiya.shinyapps.io/osteoporosis-dashboard/" width="100%" height="600px"></iframe>
+```{css, header, echo = F}
+#dashboard-container {
+    margin: 20px;
+    padding: 10px;
+    background-color: #f4f4f4;
+}
 
----
+#dashboard-container iframe {
+    border: 2px solid #ccc;
+}
+
+```

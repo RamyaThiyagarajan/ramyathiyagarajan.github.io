@@ -1,0 +1,15 @@
+{
+  "hash": "a22d4931aeb969cf047e07dd510918e7",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\nlayout: page\ntitle: Osteoporosis Dashboard\nexcerpt: \"Interactive visualization of osteoporosis data\"\nexecute:\n  freeze: true  # never re-render during project render\nengine: knitr\nresources:\n  - \"osteoporosis-dashboard.html\"\ndashboard:\n  link: \"https://rthiya.shinyapps.io/osteoporosis-dashboard/\"\n---\n\n```{=html}\n<head>\n  <link rel=\"stylesheet\" href=\"assets/css/styles.css\">\n</head>\n\n```\n\n::: {.cell}\n<style type=\"text/css\">\n#dashboard-container {\n    margin: 20px;\n    padding: 10px;\n    background-color: #f4f4f4;\n}\n\n#dashboard-container iframe {\n    border: 2px solid #ccc;\n}\n\n</style>\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

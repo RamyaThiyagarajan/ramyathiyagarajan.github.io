@@ -1,24 +1,24 @@
 # This file controls the settings for your Quarto template from www.marvinschmitt.com
 
 # website settings
-website: ramyathiyagarajan.github.io
+website:
   title: "Ramya Thiyagarajan"                                # Your name
-  description: "Welcome to My Website!
+  description: |
+    Welcome to My Website!
 
-Hello! I’m Ramya, currently pursuing my Master's in Biomedical Engineering at Case Western Reserve University. With prior experience as a Development Engineer and Machine Learning Engineer, I have developed a strong foundation in engineering and technology. My research interests are deeply rooted in Orthopedic Engineering, and I am passionate about driving innovations that enhance healthcare outcomes.
+    Hello! I’m Ramya, currently pursuing my Master's in Biomedical Engineering at Case Western Reserve University. With prior experience as a Development Engineer and Machine Learning Engineer, I have developed a strong foundation in engineering and technology. My research interests are deeply rooted in Orthopedic Engineering, and I am passionate about driving innovations that enhance healthcare outcomes.
 
-This website serves as a platform to share some of my research, analyses, and projects related to orthopedic engineering and biomedical innovations. I am committed to promoting advancements in healthcare to improve lives, and I look forward to contributing to this field in meaningful ways.
+    This website serves as a platform to share some of my research, analyses, and projects related to orthopedic engineering and biomedical innovations. I am committed to promoting advancements in healthcare to improve lives, and I look forward to contributing to this field in meaningful ways.
 
-Thank you for visiting, and I hope you find the work here both informative and inspiring!"   # A brief slogan (optional for use)
+    Thank you for visiting, and I hope you find the work here both informative and inspiring!  # A brief slogan (optional for use)
   image: img/myimage.jpg
-  
   favicon: img/fav.png
-  
+
   # start of the navigation bar at the top of the website
   navbar:
     pinned: true
     logo: /img/Logo.png
-    
+
     # your sub-pages
     left:
       - text: "Projects"
@@ -27,22 +27,20 @@ Thank you for visiting, and I hope you find the work here both informative and i
         href: cv/index.qmd
       - text: "Osteoporosis dashboard"
         href: dashboard/index.qmd
-    
+
     # your social media handles
-    right: 
+    right:
       - icon: linkedin
         href: https:/www.linkedin.com/in/ramya-thiyagarajan-9a6205230
-
       - icon: envelope
         aria-label: email
         href: "mailto:ramya.thiyagarajan@gmail.com"  
-  
-  
 
-# Don't touch unless you know what you are doing :) ------------
+  # Don't touch unless you know what you are doing :) ------------
   search: 
     location: navbar
     type: textbox
+
   page-footer: 
     left: |
       <span class="faux-block">&#169; 2023 Marvin Schmitt CC BY-SA 4.0</span>
