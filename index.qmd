@@ -18,8 +18,6 @@ about:
 ::: {#about-block}
 :::
 
-# Description for Welcome to my website!
-
 Welcome to My Website!
 
 Hello! I’m Ramya, currently pursuing my Master's in Biomedical Engineering at Case Western Reserve University. With prior experience as a Development Engineer and Machine Learning Engineer, I have developed a strong foundation in engineering and technology. My research interests are deeply rooted in Orthopedic Engineering, and I am passionate about driving innovations that enhance healthcare outcomes.

@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Description for Welcome to my website!",
+    "title": "Ramya Thiyagarajan",
     "section": "",
-    "text": "Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Email\n  \n\n\n\n\nDescription for Welcome to my website!\nWelcome to My Website!\nHello! I’m Ramya, currently pursuing my Master’s in Biomedical Engineering at Case Western Reserve University. With prior experience as a Development Engineer and Machine Learning Engineer, I have developed a strong foundation in engineering and technology. My research interests are deeply rooted in Orthopedic Engineering, and I am passionate about driving innovations that enhance healthcare outcomes.\nThis website serves as a platform to share some of my research, analyses, and projects related to orthopedic engineering and biomedical innovations. I am committed to promoting advancements in healthcare to improve lives, and I look forward to contributing to this field in meaningful ways.\nThank you for visiting, and I hope you find the work here both informative and inspiring!\n\nView the tutorial for this template (+ download link)"
+    "text": "Github\n  \n  \n    \n     LinkedIn\n  \n  \n    \n     Email\n  \n\n\n\nWelcome to My Website!\nHello! I’m Ramya, currently pursuing my Master’s in Biomedical Engineering at Case Western Reserve University. With prior experience as a Development Engineer and Machine Learning Engineer, I have developed a strong foundation in engineering and technology. My research interests are deeply rooted in Orthopedic Engineering, and I am passionate about driving innovations that enhance healthcare outcomes.\nThis website serves as a platform to share some of my research, analyses, and projects related to orthopedic engineering and biomedical innovations. I am committed to promoting advancements in healthcare to improve lives, and I look forward to contributing to this field in meaningful ways.\nThank you for visiting, and I hope you find the work here both informative and inspiring!\n\nView the tutorial for this template (+ download link)"
   },
   {
     "objectID": "cv/index.html",
@@ -166,5 +166,47 @@
     "title": "Exploring Bone Health: A Dashboard Analysis",
     "section": "Basic Information on Osteoporosis",
     "text": "Basic Information on Osteoporosis\nBefore diving deep into my analysis, I want to provide some basic terminologies used in this analysis.\nOsteoporosis is a condition in which bones become brittle and are prone to breaking.\nBMD refers to Bone Mineral Density and BMC refers to Bone Mineral Content."
+  },
+  {
+    "objectID": "docs/blog/index.html",
+    "href": "docs/blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Welcome to My Blog\nThis section contains my posts related to biomedical engineering, orthopedic engineering, and more. Stay tuned for updates!\nHere are some of my latest posts:\n\nExploring Bone Health: A Dashboard Analysis (blog/blog_RamyaThiyagarajan.html)"
+  },
+  {
+    "objectID": "docs/blog/index.html#quarto",
+    "href": "docs/blog/index.html#quarto",
+    "title": "index",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "docs/blog/index.html#running-code",
+    "href": "docs/blog/index.html#running-code",
+    "title": "index",
+    "section": "Running Code",
+    "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Welcome to My Blog\nThis section contains my posts related to biomedical engineering, orthopedic engineering, and more. Stay tuned for updates!\nHere are some of my latest posts:\n\nExploring Bone Health: A Dashboard Analysis"
+  },
+  {
+    "objectID": "blog/index.html#quarto",
+    "href": "blog/index.html#quarto",
+    "title": "index",
+    "section": "",
+    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "blog/index.html#running-code",
+    "href": "blog/index.html#running-code",
+    "title": "index",
+    "section": "Running Code",
+    "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
   }
 ]
