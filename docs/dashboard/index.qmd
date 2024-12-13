@@ -1,6 +1,6 @@
 ---
 title: "Osteoporosis Dashboard"
-output: html
+output: html_document
 description: "Interactive visualization of osteoporosis data"
 ---
 
