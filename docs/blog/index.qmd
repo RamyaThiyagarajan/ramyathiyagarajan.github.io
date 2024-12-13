@@ -1,5 +1,5 @@
----
-title: "Blog"
+--- 
+title: "Blog" 
 format: html
 ---
 
@@ -9,4 +9,5 @@ This section contains my posts related to biomedical engineering, orthopedic eng
 
 Here are some of my latest posts:
 
--   [Exploring Bone Health: A Dashboard Analysis](blog_RamyaThiyagarjan.qmd) (blog/blog_RamyaThiyagarajan.html)
+-   [Exploring Bone Health: A Dashboard Analysis](blog_RamyaThiyagarjan.qmd) 
+
