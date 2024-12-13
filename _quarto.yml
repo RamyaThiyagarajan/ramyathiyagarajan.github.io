@@ -25,6 +25,8 @@ Thank you for visiting, and I hope you find the work here both informative and i
         href: projects/index.qmd
       - text: "CV"
         href: cv/index.qmd
+      - text: "Osteoporosis dashboard"
+        href: dashboard/index.qmd
     
     # your social media handles
     right: 
