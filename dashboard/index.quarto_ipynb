@@ -1,0 +1,60 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"Osteoporosis Dashboard\"\n",
+        "output: html_document\n",
+        "description: \"Interactive visualization of osteoporosis data\"\n",
+        "---\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "## Osteoporosis Dashboard\n",
+        "\n",
+        "Here is the interactive Osteoporosis Dashboard:\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "```{css}\n",
+        ".embed-container {\n",
+        "  position: relative;\n",
+        "  padding-bottom: 56.25%;  /* 16:9 Aspect Ratio */\n",
+        "  height: 0;\n",
+        "  overflow: hidden;\n",
+        "  max-width: 100%;\n",
+        "}\n",
+        "\n",
+        ".embed-container iframe {\n",
+        "  position: absolute;\n",
+        "  top: 0;\n",
+        "  left: 0;\n",
+        "  width: 100%;\n",
+        "  height: 100%;\n",
+        "  border: none;\n",
+        "}\n",
+        "```\n",
+        "\n",
+        "``` {=html}\n",
+        "<div class=\"embed-container\">\n",
+        "  <iframe src=\"https://rthiya.shinyapps.io/osteoporosis-dashboard/\"></iframe>\n",
+        "</div>\n",
+        "```"
+      ],
+      "id": "17c0f92e"
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "display_name": "Python 3",
+      "language": "python",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}

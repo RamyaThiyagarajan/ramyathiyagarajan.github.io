@@ -26,5 +26,19 @@
     "title": "Osteoporosis Dashboard",
     "section": "",
     "text": "Here is the interactive Osteoporosis Dashboard:"
+  },
+  {
+    "objectID": "dashboard/index.html",
+    "href": "dashboard/index.html",
+    "title": "Osteoporosis Dashboard",
+    "section": "",
+    "text": "Here is the interactive Osteoporosis Dashboard:\n.embed-container { display: flex; justify-content: center; align-items: center; width: 100%; margin: 40px auto; /* Add margin for spacing / padding: 10px; / Optional padding for spacing */ }\n.embed-container iframe { width: 100%; max-width: 1200px; /* Limit maximum width / height: 800px; / Set a fixed height / border: none; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); / Soft shadow for visual separation / transition: all 0.3s ease; / Smooth transition */ }\n.embed-container iframe:hover { box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4); /* Darker shadow on hover */ }"
+  },
+  {
+    "objectID": "dashboard/index.html#osteoporosis-dashboard",
+    "href": "dashboard/index.html#osteoporosis-dashboard",
+    "title": "Osteoporosis Dashboard",
+    "section": "",
+    "text": "Here is the interactive Osteoporosis Dashboard:\n.embed-container { display: flex; justify-content: center; align-items: center; width: 100%; margin: 40px auto; /* Add margin for spacing / padding: 10px; / Optional padding for spacing */ }\n.embed-container iframe { width: 100%; max-width: 1200px; /* Limit maximum width / height: 800px; / Set a fixed height / border: none; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); / Soft shadow for visual separation / transition: all 0.3s ease; / Smooth transition */ }\n.embed-container iframe:hover { box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4); /* Darker shadow on hover */ }"
   }
 ]

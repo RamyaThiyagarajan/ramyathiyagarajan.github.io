@@ -1,12 +1,14 @@
 ---
 title: "Osteoporosis Dashboard"
+output: html_document
 description: "Interactive visualization of osteoporosis data"
 ---
 
-## Osteoporosis Dashboard
-
-Here is the interactive Osteoporosis Dashboard:
-
-<iframe src="https://rthiya.shinyapps.io/osteoporosis-dashboard/" width="100%" height="600px"></iframe>
-
----
+```{=html}
+<div style="width: 100%; margin: 40px auto;">
+  <iframe src="https://rthiya.shinyapps.io/osteoporosis-dashboard/" 
+          width="150%" height="750px" 
+          style="border: none; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);">
+  </iframe>
+</div>
+```
