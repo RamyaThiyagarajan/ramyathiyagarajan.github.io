@@ -19,6 +19,8 @@ website:
         href: projects/index.qmd
       - text: "Dashboard"
         href: dashboard/index.qmd
+      - text: "Blog"
+        href: blog/blog_RamyaThiyagarjan.qmd
       - text: "CV"
         href: cv/index.qmd
        

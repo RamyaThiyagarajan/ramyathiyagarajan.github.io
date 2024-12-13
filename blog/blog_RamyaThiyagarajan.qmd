@@ -1,0 +1,79 @@
+---
+title: "Exploring Bone Health: A Dashboard Analysis"
+author: "Ramya Thiyagarajan"
+date: 2024-12-13
+format: html
+---
+
+## Introduction
+
+In this blog post, I will introduce the dashboard I created to explore bone health data, specifically focusing on parameters like Bone Mineral Density (BMD), Bone Mineral Content (BMC), and the impact of osteoporosis. The dashboard is designed to help visualize and understand the relationships between these parameters and identify trends in individuals with and without osteoporosis.
+
+The dashboard is built using Quarto and integrates interactive visualizations powered by Plotly, making it easy to analyze complex data and uncover insights. In this post, I will walk through the process of creating the dashboard, the hypotheses I tested, and the results I derived.
+
+---
+
+## Building the Dashboard
+
+Building the dashboard involved several key steps, from importing and cleaning the data to performing analyses and visualizing the results. Here's a summary of the process:
+
+1. **Data Cleaning**: The first step was to load the data and clean it by handling missing values, filtering out irrelevant data points, and transforming variables to be more usable for analysis.
+
+2. **Statistical Analysis**: I performed several types of statistical tests, including paired and independent t-tests, to compare bone parameters between groups (e.g., osteoporosis vs. non-osteoporosis). I also built linear regression models to predict Bone Mineral Density (BMD) based on various factors.
+
+3. **Visualization**: The data was visualized through interactive plots like box plots and histograms, using Plotly to allow for dynamic exploration of the results. I used Quarto’s R code blocks to embed the analyses and visualizations directly into the blog.
+
+4. **Dashboard Integration**: The dashboard was built with an emphasis on interactivity, allowing users to explore different bone parameters and their relationships with osteoporosis history.
+
+---
+
+## Hypotheses and Analyses
+
+The primary hypothesis tested was that there would be a significant difference in bone parameters (such as BMD and BMC) between individuals with and without osteoporosis. The analysis was based on the following steps:
+
+1. **Paired Samples Analysis**: I compared the mean difference between Spine BMD and Spine BMC, using a paired t-test to assess whether these two parameters are significantly different.
+
+2. **Independent Samples Analysis**: I compared Spine BMD between individuals with and without osteoporosis using an independent t-test to see if osteoporosis status influenced bone health.
+
+3. **Regression Analysis**: I built linear regression models to predict Spine BMD based on factors like osteoporosis status, gender, and spine area.
+
+4. **Cross-tabulation & Chi-Square**: I also explored relationships between BMD and BMC categories using chi-square tests and mosaic plots.
+
+---
+
+## Results
+
+### Paired Samples Analysis
+The paired t-test revealed a significant difference between Spine BMD and Spine BMC, with a strong relationship between the two parameters. The t-statistic indicated that the difference is statistically significant.
+
+### Independent Samples Analysis
+For individuals with osteoporosis, the average BMD was significantly lower than those without osteoporosis. The boxplot visualization clearly showed the difference in medians between the two groups.
+
+### Regression Models
+The regression models showed that osteoporosis history, gender, and spine area were significant predictors of Spine BMD. The full model explained about 36% of the variability in BMD, which is a strong result for this type of medical data.
+
+### Cross-Tabulation Results
+The chi-square test indicated a significant correlation between BMD and BMC categories, showing that higher BMD is associated with higher BMC.
+
+---
+
+## Conclusions
+
+This analysis and dashboard offer valuable insights into the relationships between bone health parameters and osteoporosis status. The results highlight that osteoporosis has a significant impact on BMD and BMC, which could inform further studies or clinical decisions.
+
+The dashboard itself is an interactive tool that allows users to easily explore these results and derive their own conclusions from the data. It can be especially useful for healthcare professionals, researchers, or anyone interested in understanding bone health.
+
+---
+
+## Personal Reflection
+
+Building this dashboard was a rewarding experience, not only in terms of developing my technical skills but also in gaining a deeper understanding of bone health. It was fascinating to see how data can reveal hidden patterns and provide insights into such important health issues.
+
+If I were to expand on this project, I would like to incorporate more advanced statistical methods, such as machine learning models, to predict bone health outcomes based on a wider range of variables. Additionally, it would be interesting to explore the impact of other factors like age and lifestyle on bone health.
+
+---
+
+## Publishing and Sharing
+
+Creating this blog post and dashboard allowed me to connect with a broader audience and share my findings in a way that is accessible and engaging. I hope this analysis helps others in the field of bone health, and I look forward to continuing to build and improve these tools.
+
