@@ -2,8 +2,8 @@
 
 # website settings
 website:
-  title: "Ramya Thiyagarajan"                                # Your name
-  description: "I am Ramya and currently pursuing my Master's in Biomedical Engineering at Case Western Reserve University. I have prior experience working in the roles of development engineer and machine learning engineer. My research interest lies in the field of orhopaedic engineering and I see myself working closely in the field, promoting and driving innovations to better the health-care for people"   # A brief slogan (optional)
+  title: "Ramya Thiyagarajan"                                
+  description: "I am Ramya and currently pursuing my Master's in Biomedical Engineering at Case Western Reserve University. I have prior experience working in the roles of development engineer and machine learning engineer. My research interest lies in the field of orthopedic engineering, and I see myself working closely in the field, promoting and driving innovations to better healthcare for people."  
   image: img/myimage.jpg
   
   favicon: img/favicon.png
@@ -15,8 +15,10 @@ website:
     
     # your sub-pages
     left:
-      - text: "Blog"
-        href: blog/index.qmd
+      - text: "Projects"
+        href: projects/index.qmd
+      - text: "Blog"               # Added Blog here
+        href: blog/index.qmd       # Make sure this points to the correct location
       - text: "Dashboard"
         href: dashboard/index.qmd
       - text: "CV"
@@ -25,14 +27,12 @@ website:
     # your social media handles
     right: 
       - icon: linkedin
-        href: https:/www.linkedin.com/in/ramya-thiyagarajan-9a6205230
+        href: https://www.linkedin.com/in/ramya-thiyagarajan-9a6205230
 
       - icon: envelope
         aria-label: email
         href: "mailto:ramya.thiyagarajan@gmail.com"  
   
-  
-
 # Don't touch unless you know what you are doing :) ------------
   search: 
     location: navbar
